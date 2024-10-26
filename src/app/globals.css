@@ -478,7 +478,7 @@ article:has(:hover, :focus) {
 .text-container {
   /* background: ; */
   width: 98.4vw;
-  background: gray;
+  background: rgb(163, 162, 162);
   height: 100vh;
   font-weight: bold;
   font-size: 36px;
@@ -555,7 +555,7 @@ article:has(:hover, :focus) {
 
 /* ??footer */
 #ul {
-  color: #000000;
+  /* color: #000000; */
   display: inline-grid;
   grid-auto-flow: row;
   grid-gap: 24px;
@@ -571,7 +571,7 @@ article:has(:hover, :focus) {
 
 .link-footer {
   text-decoration: none;
-  box-shadow: inset 1 -1.9px 1 hsla(1, 1%, 10%, 0.4);
+  box-shadow: inset 1 -1.9px 1 hsla(0, 100%, 98%, 0.4);
 }
 
 .link-footer:hover {
@@ -592,12 +592,14 @@ li:hover ~ li p {
   /* background: #000; */
   display: flex;
   height: 20vh;
+  padding-left: 59px;
   width: full;
-  color: white;
+  font-size: larger;
+  color: rgb(255, 0, 0);
   z-index: 10;
-  background-color: #94989c;
+  background-color: #111111;
   line-height: 1.3;
-  font-family: Menlo, monospace;
+  /* font-family: monospace; */
 }
 
 @keyframes wave-animation {
